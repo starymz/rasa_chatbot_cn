@@ -1,0 +1,6 @@
+__pycache__
+*.log
+failed_stories.md
+story_confmat.md
+test_env
+models/

@@ -1,0 +1,518 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [],
+        "entity_synonyms": [],
+        "common_examples": [
+            {
+                "text": "你好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "嗨",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "再见",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "拜拜",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "很高兴和你说话",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "谢谢",
+                "intent": "thanks",
+                "entities": []
+            },
+            {
+                "text": "谢谢您",
+                "intent": "thanks",
+                "entities": []
+            },
+            {
+                "text": "谢谢你",
+                "intent": "thanks",
+                "entities": []
+            },
+            {
+                "text": "非常感谢",
+                "intent": "thanks",
+                "entities": []
+            },
+            {
+                "text": "谢谢啊",
+                "intent": "thanks",
+                "entities": []
+            },
+            {
+                "text": "谢了",
+                "intent": "thanks",
+                "entities": []
+            },
+            {
+                "text": "不要",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不需要",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不要办",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不办",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "暂时不要了",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不是",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "有问题",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "我再考虑考虑",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不好啦",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不行",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不可以的",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不中",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不可以",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "没了",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "没有了",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "不用了",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "暂时不用了",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "好的没了",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "好不用了",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "hi 你好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是 你是",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你好 您是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "在吗 你是谁",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是哪个 您是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey 您是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 你好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "嗨",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是 hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 hi",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey 您好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是哪个 您好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "在吗 嗨",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂 你好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是哪个 哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 您好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "哪个 你好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂 在吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey 您好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是哪个 哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好 你好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂 你是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 你是谁",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是哪个 你好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好吗 喂",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好吗 hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂 hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "byebye",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "see you",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "走你",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "拜拜",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "bye",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "再见",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "很高兴和你说话",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "拜",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "回见",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "下次见",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以设置审批流",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以给用户分配角色",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色的用户可以将用户加入到采购部",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "如何将用户加入采购部",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "一级机构管理员的角色只能授予给一级行的用户",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "二级机构管理员只能授予二级行的用户",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "租户管理员只能授予给总行的用户",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "模板类型有哪几种",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "系统种有哪几种类型的",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以查询供应商信息",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些用户可以查询供应商信息",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "查询供应商信息需要什么角色",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "可根据什么查询条件查询供应商",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "供应商查询有哪些筛选条件",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "查询供应商有哪些过滤选项",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以录入供应商",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些用户有权限录入供应商",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "录入供应商需要哪些角色",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "供应商进入平台有几种方式",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "供应商怎么进入平台",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以邀请供应商入库",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些用户可以邀请供应商入库",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "邀请供应商入库流程",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以发供应商征集",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些用户可以发供应商征集",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "供应商征集权限",
+                "intent": "system_how_to",
+                "entities": []
+            }
+        ]
+    }
+}
