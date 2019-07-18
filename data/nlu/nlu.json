@@ -512,6 +512,166 @@
                 "text": "供应商征集权限",
                 "intent": "system_how_to",
                 "entities": []
+            },
+            {
+                "text": "什么角色可以查询评委信息",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些用户有权限查询评委信息",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些用户可以发供应商征集",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以进行评委入库邀请",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些用户有权限进行评委入库邀请",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些角色有权限进行评委入库邀请",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "哪些角色可以邀请评委入库",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "意向征询是在什么情况下使用",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以发意向征询",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以查询不活跃供应商",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以查看供应商的风险排查",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以对供应商进行处罚",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以将供应商加入黑名单",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "将供应商加入黑名单后可以删除吗",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么角色可以将供应商加入代理机构库",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "提示“存在未达到集中采购限额的商品，可自行采购，是否继续提报计划？”什么原因",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "提示“存在未达到集中采购限额，请自行采购”什么原因",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "提示“终审通过后，采购计划自动生效。如需集中采购决策会审议，请在会议通过后再进行终审终审操作，确定通过审批？”是什么意思",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "在计划查询页面，启动时间处显示“延期”什么原因",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "计划编制截止时间后这条计划通知还能被引用吗",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "计划编制过程中如何合并计划",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "计划合并是不是只能由计划编制的用户进行合并",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "计划编制时商品明细可以批量导入吗",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "计划编制时已经添加了部分商品明细，使用明细导入功能时会不会覆盖掉原来填写的商品明细",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "计划编制提交后如何查看计划审批到哪里了",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "已经发布的计划在哪里查询",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "计划查询的权限如何划分的",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "采购申请中，营销类非营销类是指什么",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "采购申请提交审批时提示“请上传预算批复文件”什么原因",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "采购方式如果选择非招标，当预算金额大于多少万必须填写非招标原因及采购方式说明理由",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "什么时候需要须填写非招标原因及采购方式说明理由",
+                "intent": "system_how_to",
+                "entities": []
+            },
+            {
+                "text": "营销类非营销类是什么意思",
+                "intent": "system_how_to",
+                "entities": []
             }
         ]
     }

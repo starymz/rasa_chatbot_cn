@@ -25,7 +25,7 @@ defaults = {
         "show_server_config": False,
         "output_fmt": 'ndarray',
         "check_version": False,
-        "timeout": 5000,
+        "timeout": 100000,
         "identity": None,
         "batch_size": 128,
         "model_path": 'qs_model.data'
@@ -172,12 +172,26 @@ class QAService:
         input_arr = self.bc.encode([input_seg])
         max_score = 0
         max_i = -1
+        #for i in range(len(self.qs_list)):
+        #    sim = cosine_similarity(self.qs_arr[i].reshape(-1, 768), input_arr)
+        #    logger.debug('[{} | {}]\tsimilarity\t:\t{}'.format(qs, self.qs_list[i], sim[0][0]))
+        #    if sim[0][0] > max_score:
+        #        max_score = sim[0][0]
+        #        max_i = i
+        score = []
         for i in range(len(self.qs_list)):
             sim = cosine_similarity(self.qs_arr[i].reshape(-1, 768), input_arr)
-            logger.debug('[{} | {}]\tsimilarity\t:\t{}'.format(qs, self.qs_list[i], sim[0][0]))
-            if sim[0][0] > max_score:
-                max_score = sim[0][0]
-                max_i = i
+            #logger.debug('[{} | {}]\tsimilarity\t:\t{}'.format(qs, self.qs_list[i], sim[0][0]))
+            score.append(sim[0][0])
+        topk_idx = np.argsort(score)[::-1][:topk]
+
+        if logger.isEnabledFor(logging.DEBUG):
+            for idx in topk_idx:
+                logger.debug('输入:{} 匹配:{} 相似度:{}'.format(qs,self.qs_list[idx],score[idx]))
+
+        max_i = topk_idx[0]
+        max_score = score[max_i]
+        
         if max_score > THRESHOLD:
             return max_score, self.qs_list[max_i], max_i
         else:
@@ -202,7 +216,7 @@ class QAService:
         
 
     def getanswer(self, qs):
-        score, res, index = self.get_similarity_np(qs)
+        score, res, index = self.get_similarity(qs)
         logger.debug('输入:{} 最佳匹配:{} 相似度:{}'.format(qs,res,score))
         if index >= 0 and index < len(self.qs_list):
             tag = self.qs_id2tag[index]
